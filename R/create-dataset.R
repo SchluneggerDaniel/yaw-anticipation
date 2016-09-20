@@ -10,5 +10,5 @@ yaw <- within(yaw, {
     id <- as.factor(id)
 })
 
-write_csv(x = yaw, path = "data/yaw-anticipation.csv")
+# write_csv(x = yaw, path = "data/yaw-anticipation.csv")
 
